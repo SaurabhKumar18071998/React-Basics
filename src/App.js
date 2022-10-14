@@ -5,6 +5,7 @@ import Contact from "./pages/Contact";
 import Blogs from "./pages/Blogs";
 import Layout from "./pages/Layout";
 import NoPage from "./pages/NoPage";
+import MainComponent from './props/MainComponent.jsx';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} />
+          <Route path="/parent-props" element={<MainComponent/>}/>
         </Route>
         
       </Routes>
