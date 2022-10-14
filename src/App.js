@@ -6,6 +6,7 @@ import Blogs from "./pages/Blogs";
 import Layout from "./pages/Layout";
 import NoPage from "./pages/NoPage";
 import MainComponent from './props/MainComponent.jsx';
+import UseEffectExample from './UseEffect/UseEffect.jsx';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} />
           <Route path="/parent-props" element={<MainComponent/>}/>
+          <Route path="/use-effect-example" element={<UseEffectExample/>}/>
         </Route>
         
       </Routes>
