@@ -9,6 +9,7 @@ import MainComponent from './props/MainComponent.jsx';
 import UseEffectExample from './UseEffect/UseEffect.jsx';
 import NoteState from './UseContext/notes/NoteState.jsx';
 import ShowContextContent from './UseContext/notes/ShowContextContent.jsx';
+import UseRefExample from './UseRef/UseRefExample.jsx';
 function App() {
   return (
     <NoteState>
@@ -22,6 +23,7 @@ function App() {
           <Route path="/parent-props" element={<MainComponent/>}/>
           <Route path="/use-effect-example" element={<UseEffectExample/>}/>
           <Route path="/use-context-example" element={<ShowContextContent/>}/>
+          <Route path="/use-ref-example" element={<UseRefExample/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
