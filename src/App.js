@@ -12,6 +12,7 @@ import ShowContextContent from './UseContext/notes/ShowContextContent.jsx';
 import UseRefExample from './UseRef/UseRefExample.jsx';
 import UseReducerExample from './UseReducer/UseReducerExample.jsx';
 import UseCallBackExample from './UseCallBackExample/UseCallBackExample.jsx';
+import UseMemo from './UseMemoExample/UseMemoExample.jsx';
 function App() {
   return (
     <NoteState>
@@ -28,6 +29,7 @@ function App() {
           <Route path="/use-ref-example" element={<UseRefExample/>}/>
           <Route path="/use-reducer-example" element={<UseReducerExample/>}/>
           <Route path="/use-callback-example" element={<UseCallBackExample/>}/>
+          <Route path="/use-memo-example" element={<UseMemo/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
