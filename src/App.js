@@ -10,6 +10,7 @@ import UseEffectExample from './UseEffect/UseEffect.jsx';
 import NoteState from './UseContext/notes/NoteState.jsx';
 import ShowContextContent from './UseContext/notes/ShowContextContent.jsx';
 import UseRefExample from './UseRef/UseRefExample.jsx';
+import UseReducerExample from './UseReducer/UseReducerExample.jsx';
 function App() {
   return (
     <NoteState>
@@ -24,6 +25,7 @@ function App() {
           <Route path="/use-effect-example" element={<UseEffectExample/>}/>
           <Route path="/use-context-example" element={<ShowContextContent/>}/>
           <Route path="/use-ref-example" element={<UseRefExample/>}/>
+          <Route path="/use-reducer-example" element={<UseReducerExample/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
