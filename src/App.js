@@ -13,6 +13,7 @@ import UseRefExample from './UseRef/UseRefExample.jsx';
 import UseReducerExample from './UseReducer/UseReducerExample.jsx';
 import UseCallBackExample from './UseCallBackExample/UseCallBackExample.jsx';
 import UseMemo from './UseMemoExample/UseMemoExample.jsx';
+import UseFormExample from './UseFormExample/UseFormExample.jsx';
 function App() {
   return (
     <NoteState>
@@ -30,6 +31,7 @@ function App() {
           <Route path="/use-reducer-example" element={<UseReducerExample/>}/>
           <Route path="/use-callback-example" element={<UseCallBackExample/>}/>
           <Route path="/use-memo-example" element={<UseMemo/>}/>
+          <Route path="/use-form-example" element={<UseFormExample/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
